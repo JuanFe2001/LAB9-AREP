@@ -12,30 +12,30 @@ Este proyecto introduce un sistema de búsqueda de documentos que hace uso de la
 
 ## Pasos para la ejecucion
 1. Clonamos el proyecto:
-     ``` 
+  ``` 
   git clone https://github.com/JuanFe2001/LAB9-AREP.git
   ```
 2. Vamos a la carpeta del proyecto:
-    ``` 
+  ``` 
   cd LAB9-AREP
   ```
 3. Instalamos las dependencias del proyecto:
-       ``` 
+  ``` 
   pip install -r librerias.txt
   ```
 4. Configurar las variables de entorno en cada uno de los scripts con tus llaves:
-    ``` 
+  ``` 
   os.environ["OPENAI_API_KEY"] = <Tu OpenAI API Key>
   os.environ["PINECONE_API_KEY"] = <Tu Pinecone API Key>
   ```
 5. Ejecutamos los Scripts
-     ``` 
+  ``` 
   python Punto1.py
   ```
- ``` 
+  ``` 
   python Punto2.py
   ```
- ``` 
+  ``` 
   python Punto3.py
   ```
 ## Demostracion:
@@ -66,7 +66,7 @@ question = "What is at the core of Popper's theory of science?"
 
 response = llm_chain.run(question)
 print(response)
-  ```
+ ```
 1. Importaciones de bibliotecas:
 Se importan las clases y funciones necesarias de las bibliotecas langchain y langchain_community para construir y ejecutar la cadena de lenguaje.
 2. Configuración de la clave de API de OpenAI:
