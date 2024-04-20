@@ -43,7 +43,7 @@ Este proyecto introduce un sistema de búsqueda de documentos que hace uso de la
 **Punto1**
 
  ``` 
-  from langchain.chains import LLMChain
+from langchain.chains import LLMChain
 #from langchain.llms import OpenAI
 from langchain_community.llms import OpenAI
 from langchain.prompts import PromptTemplate
@@ -66,6 +66,7 @@ question = "What is at the core of Popper's theory of science?"
 
 response = llm_chain.run(question)
 print(response)
+
  ```
 1. Importaciones de bibliotecas:
 Se importan las clases y funciones necesarias de las bibliotecas langchain y langchain_community para construir y ejecutar la cadena de lenguaje.
